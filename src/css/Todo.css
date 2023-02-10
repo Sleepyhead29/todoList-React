@@ -1,0 +1,42 @@
+.todos{
+    margin: 0 auto;
+    width: 80vw;
+    height: 50vh;
+  }
+  
+  .todo input[type=checkbox]{
+  margin-left: 1em;
+  width: 2em;
+  height: 2em;
+}
+.todo{
+    height: 3em;
+    margin-bottom: 0.2em;
+    border: 1px solid black;
+    display: flex;
+    background-color: rgb(235, 233, 233);
+    align-items: center;
+    justify-content: space-between;
+  }
+.todo h2{
+    margin-left: 1em;
+}
+
+.buttons button{
+    width: 5em;
+    height: 2em;
+    margin-right: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.editBtn {
+    background-color: green;
+}
+.deleteBtn {
+    background-color: red;
+}
+.checked h2{
+    text-decoration: line-through;
+    color: grey;
+}
